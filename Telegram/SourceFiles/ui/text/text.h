@@ -20,7 +20,8 @@ Copyright (c) 2014-2017 John Preston, https://desktop.telegram.org
 */
 #pragma once
 
-#include "private/qfixed_p.h"
+//#include "private/qfixed_p.h"
+#include <ThirdParty/QtPrivateHeaders/qfixed_p.h>
 
 #include "core/click_handler.h"
 #include "ui/text/text_entity.h"

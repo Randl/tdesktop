@@ -35,7 +35,8 @@ Copyright (c) 2014-2017 John Preston, https://desktop.telegram.org
 
 #include <iostream>
 
-#include <qpa/qplatformnativeinterface.h>
+//#include <qpa/qplatformnativeinterface.h>
+#include <ThirdParty/QtPrivateHeaders/qplatformnativeinterface.h>
 
 using namespace Platform;
 using Platform::File::internal::EscapeShell;

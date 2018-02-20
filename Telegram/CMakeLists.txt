@@ -655,7 +655,7 @@ target_link_libraries(Telegram
     Qt5::Core
     Qt5::Widgets
     Qt5::Network
-    Qt5::GuiPrivate
+    #Qt5::GuiPrivate
     tgvoip
     ${OPENAL_LIBRARY}
     ${FFMPEG_LIBRARIES}

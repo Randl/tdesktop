@@ -20,7 +20,8 @@ Copyright (c) 2014-2017 John Preston, https://desktop.telegram.org
 */
 #include "platform/linux/file_utilities_linux.h"
 
-#include <private/qguiapplication_p.h>
+// #include <private/qguiapplication_p.h>
+#include <ThirdParty/QtPrivateHeaders/qguiapplication_p.h>
 #include "platform/linux/linux_libs.h"
 #include "platform/linux/linux_gdk_helper.h"
 #include "messenger.h"

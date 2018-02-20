@@ -31,7 +31,8 @@
 **
 ****************************************************************************/
 
-#include <private/qtextengine_p.h>
+//#include <private/qtextengine_p.h>
+#include <ThirdParty/QtPrivateHeaders/qtextengine_p.h>
 
 /* TODO: find a dynamic library with these symbols. */
 

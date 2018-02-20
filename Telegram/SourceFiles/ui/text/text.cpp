@@ -20,7 +20,8 @@ Copyright (c) 2014-2017 John Preston, https://desktop.telegram.org
 */
 #include "ui/text/text.h"
 
-#include <private/qharfbuzz_p.h>
+//#include <private/qharfbuzz_p.h>
+#include <ThirdParty/QtPrivateHeaders/qharfbuzz_p.h>
 
 #include "core/click_handler_types.h"
 #include "ui/text/text_block.h"

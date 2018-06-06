@@ -450,7 +450,9 @@ void Generator::writeSetSearch(const std::set<QString, std::greater<QString>> &s
 			if (weContinueOldSwitch) {
 				weContinueOldSwitch = false;
 			} else {
-				checkLengthCondition = (minimalLengthCheck > checkLengthHistory.back()) ?
+				// TODO: this is hotfix, however there is some problem with this part,
+				// and > is the right condition.
+				checkLengthCondition = (minimalLengthCheck >= checkLengthHistory.back()) ?
 				                           ("size >= " + QString::number(minimalLengthCheck)) :
 				                           QString();
 				if (!usedIfForCheck) {
